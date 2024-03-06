@@ -1,0 +1,16 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./__types__/index.d.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
+}
